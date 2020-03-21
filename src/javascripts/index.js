@@ -9,6 +9,6 @@ import "bootstrap"
 
 let f = document.getElementById("myForm")
 f.onsubmit = function(){
-    let n = document.getElementById("name").value
-    alert("Welcome " + n)
+    let n = document.getElementById("nameInput").value
+    alert("Welcome " + n + "!")
 }
